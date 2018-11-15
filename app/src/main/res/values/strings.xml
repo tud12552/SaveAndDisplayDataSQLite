@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SaveAndDisplayDataSQLite</string>
+    <string name="addStr">Add User</string>
+    <string name="viewUsersStr">View Users</string>
+</resources>
