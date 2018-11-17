@@ -46,6 +46,8 @@ public class EditDataActivity extends AppCompatActivity {
                 if(!item.equals(""))
                 {
                     mDatabaseHelper.updateName(item, selectedID, selectedName);
+                    Intent goBack = new Intent(EditDataActivity.this,ListDataActivity.class);
+                    startActivity(goBack);
                 }
                 else
                 {
